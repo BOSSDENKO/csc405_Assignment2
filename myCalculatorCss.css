@@ -1,0 +1,120 @@
+body {
+    height: 100vh;
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top,#fa4be3, #73dcee); 
+    background: -o-linear-gradient(bottom right, #fa4be3,#73dcee); 
+    background: -moz-linear-gradient(bottom right,#fa4be3,#73dcee); 
+    background: linear-gradient(to bottom right, #fa4be3, #73dcee); 
+}
+
+.container {
+    width: 320px;
+    height: 530px;
+    background-color: blue;
+     background: -webkit-linear-gradient(left top,#73dcee,  #fa4be3); 
+    background: -o-linear-gradient(bottom right, #73dcee,  #fa4be3); 
+    background: -moz-linear-gradient(bottom right,#73dcee,  #fa4be3); 
+    background: linear-gradient(to bottom right, #73dcee,  #fa4be3); 
+    position: fixed;
+    top:50px;
+    left: 450px;
+    box-shadow: 3px 3px 16px 5px #676868;
+}
+
+header {
+    height: 40px;
+    padding: 10px 0;
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.input {
+    height: 5%;
+    text-align: right;
+    width: 300px;
+    padding: 10px;
+    text-overflow: clip;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+}
+
+.result {
+    height: 15%;
+    font-size: 2em;
+    text-align: right;
+    position: relative;
+    width: 300px;
+    padding: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+}
+
+
+
+.buttons {
+    position: relative;
+    top: 20px;
+    left: 15px;
+
+}
+
+.button {
+    width: 45px;
+    height: 32px;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    font-size: 12px;
+}
+
+.buttons button:hover{
+    background-color: #aae1eb;
+}
+
+.number {
+    width: 45px;
+    height: 32px;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+
+.delete {
+    width: 45px;
+    height: 32px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    border-bottom: 2px solid black;
+}
+
+.reset {
+    width: 45px;
+    height: 32px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    border-bottom: 2px solid black;
+}
+
+.equals {
+    width: 45px;
+    height: 32px;
+    cursor: pointer;
+    color: white;
+    background-color:transparent;
+    border-bottom: 2px solid black;
+}
+
+p {
+    line-height: 25px;
+}

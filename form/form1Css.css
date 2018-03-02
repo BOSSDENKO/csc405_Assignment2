@@ -1,0 +1,97 @@
+body{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	bottom: 50px;
+	left: -7px;
+
+}
+
+.back{
+	background-image:url("pexels-photo.jpg");
+	background-size:cover;
+	width: 100%;
+	height: 1000px;
+	background-repeat: no-repeat;
+
+}
+
+.overlay{
+	background-color: black;
+	position: absolute;
+	left:180px;
+	width:1000px;
+	height:1000px;
+	opacity: 0.85;
+}
+
+.fill_form{
+	color:white;
+	text-align: center;
+	font-size: 60px;
+	font-family: sans-serif;
+}
+
+.form_style{
+	padding-left: 10px;
+}
+
+label{
+	color:white;
+	font-size: 20px;
+}
+
+input{
+	height: 30px;
+	width: 700px;
+	font-size: 17px;
+}
+
+input:focus{
+	outline: none;
+	
+}
+
+.age{
+	visibility: hidden;
+}
+
+.email{
+	visibility: hidden;
+	
+}
+
+.relationship{
+	visibility: hidden;
+	
+}
+
+.message{
+	visibility: hidden;
+	
+}
+
+.school_occupation{
+	visibility: hidden;
+	
+}
+
+.phone_number{
+	visibility: hidden;
+	
+}
+
+.gender{
+	visibility: hidden;
+	
+}
+
+.country{
+	visibility: hidden;
+	
+}
+
+.dob{
+	visibility: hidden;
+	
+}
